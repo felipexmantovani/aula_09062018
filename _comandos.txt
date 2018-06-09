@@ -1,0 +1,28 @@
+git init
+
+// status
+git status
+
+// criar branch
+git checkout -b joziel
+
+// verificar branch
+git branch
+
+// clonar
+git clone https://example.com/path/to/git
+git -c http.sslVerify=false clone https://example.com/path/to/git
+
+git config http.sslVerify false
+
+// commit
+git commit -am "mensagem"
+
+// push
+git push
+
+// pull
+git pull
+
+// add
+git add . ==== git add *.jpg
